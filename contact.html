@@ -14,6 +14,41 @@
     <a href="contact.html" class="mx-4 font-semibold hover:underline">Contact</a>
   </nav>
 
+  <section class="bg-[#fdfaf6] text-[#2c1e1b] py-12 px-6 font-serif">
+  <div class="max-w-xl mx-auto">
+    <h2 class="text-3xl font-bold mb-6">Submit a Report or Inquiry</h2>
+    <form action="#" method="POST" class="space-y-6">
+      
+      <!-- Name -->
+      <div>
+        <label for="name" class="block text-lg font-medium mb-1">Your Name</label>
+        <input type="text" id="name" name="name" required
+               class="w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-[#6a4f4b]" />
+      </div>
+
+      <!-- Email -->
+      <div>
+        <label for="email" class="block text-lg font-medium mb-1">Email Address</label>
+        <input type="email" id="email" name="email" required
+               class="w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-[#6a4f4b]" />
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label for="message" class="block text-lg font-medium mb-1">Message or Report Summary</label>
+        <textarea id="message" name="message" rows="5" required
+                  class="w-full px-4 py-2 border border-gray-300 rounded shadow-sm focus:outline-none focus:ring-2 focus:ring-[#6a4f4b]"></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="submit"
+              class="bg-[#6a4f4b] text-white px-6 py-2 rounded font-semibold hover:bg-[#5a403d] transition">
+        Submit
+      </button>
+    </form>
+  </div>
+</section>
+
   <main class="max-w-xl mx-auto py-12 px-6">
     <h1 class="text-4xl font-bold mb-6">Contact Us</h1>
     <form class="space-y-4">
@@ -34,4 +69,5 @@
   </main>
 
 </body>
+
 </html>
